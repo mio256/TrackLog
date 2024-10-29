@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TrackLog</string>
+    <string name="HintName">名前を入力</string>
+    <string name="HindID">ドライバーIDを入力</string>
+    <string name="HintLogin">ログイン</string>
+    <string name="TextCalcArrivalTime">到着予定時刻を計算中...</string>
+    <string name="TextCompletedCheckIn">チェックインが完了しました</string>
+    <string name="TextSoonWaitingTime">まもなく待ち時間表示画面へ移動します...</string>
 </resources>

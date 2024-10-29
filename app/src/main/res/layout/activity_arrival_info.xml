@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 到着予定時刻の表示 -->
+    <TextView
+        android:id="@+id/estimatedArrivalTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="到着予定時刻を計算中..."
+        android:textSize="18sp" />
+
+    <!-- 現在地の表示 -->
+    <TextView
+        android:id="@+id/currentLocationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="現在地: 取得中..."
+        android:textSize="16sp" />
+
+    <!-- 緯度の入力フィールド -->
+    <EditText
+        android:id="@+id/destinationLatitudeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="目的地の緯度を入力"
+        android:inputType="numberDecimal" />
+
+    <!-- 経度の入力フィールド -->
+    <EditText
+        android:id="@+id/destinationLongitudeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="目的地の経度を入力"
+        android:inputType="numberDecimal" />
+
+    <!-- 目的地を設定するボタン -->
+    <Button
+        android:id="@+id/setDestinationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="目的地を設定" />
+
+</LinearLayout>
